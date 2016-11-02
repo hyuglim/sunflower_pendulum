@@ -1,0 +1,387 @@
+
+
+Tag Exit{
+Random seed used = [921592865]
+
+
+Tag Exit{
+Node0		User Time elapsed = 0.003177 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	0
+Node0		CPU-only ETOT	=	0.000000E+00 Joules
+Node0		CPU-only AVG POWER	=	0.000000E+00 Watts
+Node0		"ICLK"	=	0
+Node0		"CLK"	=	0
+Node0		"TIME"	=	0.000000E+00
+Node0		"dyncnt"	=	0
+} Tag Exit.
+
+
+Tag Exit{
+Node1		User Time elapsed = 0.003210 seconds.
+Node1		Instruction Simulation Rate = 2202803.74 Cycles/Second.
+Node1		"machinetype"	=	0
+Node1		"Cycletrans"	=	0
+Node1		"CYCLETIME"	=	2.500000E-07
+Node1		NTRANS	=	616623
+Node1		CPU-only ETOT	=	4.666860E-05 Joules
+Node1		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node1		"ICLK"	=	7071
+Node1		"CLK"	=	7071
+Node1		"TIME"	=	1.767750E-03
+Node1		"dyncnt"	=	7071
+} Tag Exit.
+	BATT0		Number of nodes attached	=	1
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [921592865]
+
+
+Tag Exit{
+Node0		User Time elapsed = 1581.506688 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	0
+Node0		CPU-only ETOT	=	0.000000E+00 Joules
+Node0		CPU-only AVG POWER	=	0.000000E+00 Watts
+Node0		"ICLK"	=	0
+Node0		"CLK"	=	0
+Node0		"TIME"	=	0.000000E+00
+Node0		"dyncnt"	=	0
+} Tag Exit.
+
+
+Tag Exit{
+Node1		User Time elapsed = 1581.506688 seconds.
+Node1		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node1		"machinetype"	=	0
+Node1		"Cycletrans"	=	15
+Node1		"CYCLETIME"	=	2.500000E-07
+Node1		NTRANS	=	137325140573
+Node1		CPU-only ETOT	=	2.825712E+01 Joules
+Node1		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node1		"ICLK"	=	4281381341
+Node1		"CLK"	=	4281381347
+Node1		"TIME"	=	1.070345E+03
+Node1		"dyncnt"	=	4281381358
+} Tag Exit.
+	BATT0		Number of nodes attached	=	1
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [921592865]
+
+
+Tag Exit{
+Node0		User Time elapsed = 61.217744 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	0
+Node0		CPU-only ETOT	=	0.000000E+00 Joules
+Node0		CPU-only AVG POWER	=	0.000000E+00 Watts
+Node0		"ICLK"	=	0
+Node0		"CLK"	=	0
+Node0		"TIME"	=	0.000000E+00
+Node0		"dyncnt"	=	0
+} Tag Exit.
+
+
+Tag Exit{
+Node1		User Time elapsed = 61.217764 seconds.
+Node1		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node1		"machinetype"	=	0
+Node1		"Cycletrans"	=	0
+Node1		"CYCLETIME"	=	2.500000E-07
+Node1		NTRANS	=	2642590367
+Node1		CPU-only ETOT	=	5.436827E-01 Joules
+Node1		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node1		"ICLK"	=	82376172
+Node1		"CLK"	=	82376175
+Node1		"TIME"	=	2.059404E+01
+Node1		"dyncnt"	=	82376181
+} Tag Exit.
+	BATT0		Number of nodes attached	=	1
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [921592865]
+
+
+Tag Exit{
+Node0		User Time elapsed = 0.003258 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	0
+Node0		CPU-only ETOT	=	0.000000E+00 Joules
+Node0		CPU-only AVG POWER	=	0.000000E+00 Watts
+Node0		"ICLK"	=	0
+Node0		"CLK"	=	0
+Node0		"TIME"	=	0.000000E+00
+Node0		"dyncnt"	=	0
+} Tag Exit.
+
+
+Tag Exit{
+Node1		User Time elapsed = 0.003290 seconds.
+Node1		Instruction Simulation Rate = 1099392.10 Cycles/Second.
+Node1		"machinetype"	=	0
+Node1		"Cycletrans"	=	0
+Node1		"CYCLETIME"	=	2.500000E-07
+Node1		NTRANS	=	465371
+Node1		CPU-only ETOT	=	2.387220E-05 Joules
+Node1		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node1		"ICLK"	=	3617
+Node1		"CLK"	=	3617
+Node1		"TIME"	=	9.042500E-04
+Node1		"dyncnt"	=	3617
+} Tag Exit.
+	BATT0		Number of nodes attached	=	1
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [921592865]
+
+
+Tag Exit{
+Node0		User Time elapsed = 0.013014 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	0
+Node0		CPU-only ETOT	=	0.000000E+00 Joules
+Node0		CPU-only AVG POWER	=	0.000000E+00 Watts
+Node0		"ICLK"	=	0
+Node0		"CLK"	=	0
+Node0		"TIME"	=	0.000000E+00
+Node0		"dyncnt"	=	0
+} Tag Exit.
+
+
+Tag Exit{
+Node1		User Time elapsed = 0.013046 seconds.
+Node1		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node1		"machinetype"	=	0
+Node1		"Cycletrans"	=	0
+Node1		"CYCLETIME"	=	2.500000E-07
+Node1		NTRANS	=	622641
+Node1		CPU-only ETOT	=	4.691940E-05 Joules
+Node1		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node1		"ICLK"	=	7109
+Node1		"CLK"	=	7109
+Node1		"TIME"	=	1.777250E-03
+Node1		"dyncnt"	=	7109
+} Tag Exit.
+
+
+Tag Exit{
+Node2		User Time elapsed = 0.013072 seconds.
+Node2		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node2		"machinetype"	=	0
+Node2		"Cycletrans"	=	0
+Node2		"CYCLETIME"	=	2.500000E-07
+Node2		NTRANS	=	622603
+Node2		CPU-only ETOT	=	4.691940E-05 Joules
+Node2		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node2		"ICLK"	=	7109
+Node2		"CLK"	=	7109
+Node2		"TIME"	=	3.554533E-03
+Node2		"dyncnt"	=	7109
+} Tag Exit.
+
+
+Tag Exit{
+Node3		User Time elapsed = 0.013096 seconds.
+Node3		Instruction Simulation Rate = 1408578502879470944256.00 Cycles/Second.
+Node3		"machinetype"	=	0
+Node3		"Cycletrans"	=	43
+Node3		"CYCLETIME"	=	2.500000E-07
+Node3		NTRANS	=	389464
+Node3		CPU-only ETOT	=	1.177440E-05 Joules
+Node3		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node3		"ICLK"	=	1784
+Node3		"CLK"	=	1784
+Node3		"TIME"	=	4.000567E-03
+Node3		"dyncnt"	=	1784
+} Tag Exit.
+
+
+Tag Exit{
+Node4		User Time elapsed = 0.013126 seconds.
+Node4		Instruction Simulation Rate = 541596.83 Cycles/Second.
+Node4		"machinetype"	=	0
+Node4		"Cycletrans"	=	0
+Node4		"CYCLETIME"	=	2.500000E-07
+Node4		NTRANS	=	622725
+Node4		CPU-only ETOT	=	4.691940E-05 Joules
+Node4		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node4		"ICLK"	=	7109
+Node4		"CLK"	=	7109
+Node4		"TIME"	=	5.777833E-03
+Node4		"dyncnt"	=	7109
+} Tag Exit.
+	BATT0		Number of nodes attached	=	4
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+	BATT0		Number of nodes attached	=	0
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+	BATT0		Number of nodes attached	=	0
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+	BATT0		Number of nodes attached	=	0
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [921592865]
+
+
+Tag Exit{
+Node0		User Time elapsed = 0.005956 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	0
+Node0		CPU-only ETOT	=	0.000000E+00 Joules
+Node0		CPU-only AVG POWER	=	0.000000E+00 Watts
+Node0		"ICLK"	=	0
+Node0		"CLK"	=	0
+Node0		"TIME"	=	0.000000E+00
+Node0		"dyncnt"	=	0
+} Tag Exit.
+
+
+Tag Exit{
+Node1		User Time elapsed = 0.005989 seconds.
+Node1		Instruction Simulation Rate = 1187009.52 Cycles/Second.
+Node1		"machinetype"	=	0
+Node1		"Cycletrans"	=	0
+Node1		"CYCLETIME"	=	2.500000E-07
+Node1		NTRANS	=	622641
+Node1		CPU-only ETOT	=	4.691940E-05 Joules
+Node1		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node1		"ICLK"	=	7109
+Node1		"CLK"	=	7109
+Node1		"TIME"	=	1.777250E-03
+Node1		"dyncnt"	=	7109
+} Tag Exit.
+	BATT0		Number of nodes attached	=	1
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [921592865]
+
+
+Tag Exit{
+Node0		User Time elapsed = 15.526983 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	0
+Node0		CPU-only ETOT	=	0.000000E+00 Joules
+Node0		CPU-only AVG POWER	=	0.000000E+00 Watts
+Node0		"ICLK"	=	0
+Node0		"CLK"	=	0
+Node0		"TIME"	=	0.000000E+00
+Node0		"dyncnt"	=	0
+} Tag Exit.
+
+
+Tag Exit{
+Node1		User Time elapsed = 15.527021 seconds.
+Node1		Instruction Simulation Rate = 1288601.08 Cycles/Second.
+Node1		"machinetype"	=	0
+Node1		"Cycletrans"	=	0
+Node1		"CYCLETIME"	=	2.500000E-07
+Node1		NTRANS	=	893039750
+Node1		CPU-only ETOT	=	1.320537E-01 Joules
+Node1		CPU-only AVG POWER	=	2.640000E-02 Watts
+Node1		"ICLK"	=	20008135
+Node1		"CLK"	=	20008135
+Node1		"TIME"	=	5.002034E+00
+Node1		"dyncnt"	=	20008135
+} Tag Exit.
+	BATT0		Number of nodes attached	=	1
+	BATT0		Estimated Ideal Capacity	=	1.440000E+00 (Joules)
+	BATT0		Estimated Ideal remaining (Joules)	=	1.440000E+00
+	BATT0		Maximum Sampled Current Load (mA)	=	0.000000E+00
+	BATT0		avgIload             0.000000E+00
+	BATT0		nsamplesIload        0.000000E+00
+	E->battperiodpsec=4562254508917369340
+
+} Tag Exit.

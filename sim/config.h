@@ -38,11 +38,11 @@
 #define	M64
 
 #define	SF_AUTO_QUANTUM		0
-#define	SF_CHATTY		0
-#define	SF_PHYSICS		0
+#define	SF_CHATTY		1
+#define	SF_PHYSICS		1
 #define	SF_DEBUG		0
 #define	SF_NETWORK		0
-#define	SF_MOBILITY		0
+#define	SF_MOBILITY		1
 #define	SF_SIMLOG		1
 #define	SF_PAU_DEFINED		0
 #define	SF_BITFLIP_ANALYSIS	1
@@ -55,4 +55,4 @@
 #define	SF_VALUETRACE_ANALYSIS	1
 #define	SF_FT_TANDEM		0
 #define	SF_BPTS			1
-#define	SF_TRAJECTORIES		0
+#define	SF_TRAJECTORIES		1
