@@ -43,29 +43,29 @@ static void	hdlr_install(void);
 void
 startup(int argc, char *argv[])
 {
-
 	hdlr_install();
 
-    ulong start_time = devrtc_getusecs();
-    int total_seconds = 5;
-    
-    volatile double prev_x_acceleration = (double) devloc_getxloc();
-    int swing_count = 0;
+	ulong start_time = devrtc_getusecs();
+	int total_seconds = 5;
 
-    while (devrtc_getusecs() < start_time + 1000000 * total_seconds) {
-        volatile double x_acceleration = (double) devloc_getxloc();
-        printf("x_acceleration value is %f\n", x_acceleration);
+	volatile double prev_x_acceleration = (double) devloc_getxloc();
+	int swing_count = 0;
 
-        if (prev_x_acceleration * x_acceleration < 0) {
-            swing_count++;
-        }
+	while (devrtc_getusecs() < start_time + 1000000 * total_seconds)
+	{
+		volatile double x_acceleration = (double) devloc_getxloc();
+		printf("x_acceleration value is %f\n", x_acceleration);
 
-        if (x_acceleration != 0) { // do not double count the change
-            prev_x_acceleration = x_acceleration;
-        }
-    }
-    
-    printf("detected %d swings in the pendulum\n", swing_count);
+		if (prev_x_acceleration * x_acceleration < 0) {
+			swing_count++;
+		}
+
+		if (x_acceleration != 0) { // do not double count the change
+			prev_x_acceleration = x_acceleration;
+		}
+	}
+
+	printf("detected %d swings in the pendulum\n", swing_count);
 
 	return;		
 }
