@@ -21,7 +21,6 @@
 #include "print.h"
 #include "batt.h"
 
-#include "sift-mac.h"
 
 enum
 {
@@ -38,16 +37,13 @@ enum
 
 /*	    8 GPRs + PR		*/
 uchar		REGSAVESTACK[36];
-SiftState	*SIFT_MAC;
 
-static void		hdlr_install(void);
-static void		write_log(ulong period);
+static void	hdlr_install(void);
 
 void
 startup(int argc, char *argv[])
 {
 
-	SIFT_MAC = NULL;
 	hdlr_install();
 
     ulong start_time = devrtc_getusecs();
@@ -76,44 +72,6 @@ startup(int argc, char *argv[])
 
 
 void
-nic_hdlr(int evt)
-{
-	int		whichifc;
-	SiftFrame	*payload;
-	ulong 		timestamp, now;
-
-
-    /*      Lower 12 bits of interrupt code specify IFC #   	*/
-    whichifc = evt & 0xFFF;
-	
-NETTRACEMARK(8);
-LOGMARK(0);
-	/*	Let the MAC layer take care of whatever it needs to	*/
-	sift_nichdlr(SIFT_MAC, whichifc);
-LOGMARK(1);
-NETTRACEMARK(9);
-
-	/*								*/
-	/*	Now, retrieve the payload from the MAC layer, if any	*/
-	/*								*/
-	payload = sift_receive(SIFT_MAC, FRAME_DATA);
-	if (payload == NULL)
-	{
-        printf("nic_hdlr payload is null\n");
-
-		return;
-	}
-
-	now = devrtc_getusecs();
-
-	/*	There will always be some old frames, since broadcast leads to loops	*/
-	memmove(&timestamp, payload->data, 4);
-	sift_freeframe(payload);
-
-	return;
-}
-
-void
 intr_hdlr(void)
 {
 	int	evt = devexcp_getintevt();
@@ -122,11 +80,6 @@ intr_hdlr(void)
 	/*	Only call nic_hdlr() for RX_OK interrupts	*/
 	if ((evt >= NIC_RX_EXCP_CODE) && (evt < NIC_RX_EXCP_CODE_END))
 	{
-		/*	Only begin triggering when sift_init is done	*/
-		if (SIFT_MAC != NULL)
-		{
-			nic_hdlr(evt);
-		}
 	}
 	else if (evt == TMU0_TUNI0_EXCP_CODE)
 	{
