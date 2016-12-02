@@ -3,17 +3,15 @@ TREEROOT	= ../../../..
 include $(TREEROOT)/conf/setup.conf
 
 PROGRAM		= pendulum
-MAC		= sift-mac
-MACPATH		= ../Sift-MAC
 LIBOS		= eOS
 
 PORT		= ../../port
 LIBOS		= eOS
 SIMDIR		= $(TREEROOT)/sim
 TOOLSLIB      	= $(TREEROOT)/tools/tools-lib
-INCLUDES        = -I$(MACPATH) -I$(PORT)  -I$(TREEROOT)/sys/include -I$(TREEROOT)/sys/kern/superH -I$(SIMDIR) -I$(TREEROOT)/sys/libOS/port
+INCLUDES        = -I$(PORT)  -I$(TREEROOT)/sys/include -I$(TREEROOT)/sys/kern/superH -I$(SIMDIR) -I$(TREEROOT)/sys/libOS/port
 OPTFLAGS	= -gstabs3 -O0
-CFLAGS       	= -DSIFT_RANDTABLE -nostdlib -fno-builtin $(TARGET-ARCH-FLAGS) -Wall -DLOGMARKERS## -Werror -Winline
+CFLAGS       	= -nostdlib -fno-builtin $(TARGET-ARCH-FLAGS) -Wall -DLOGMARKERS## -Werror -Winline
 LDFLAGS       	= -Ttext $(LOADADDR) -TsuperH.ld -L$(TOOLSLIB)/$(TARGET) -L$(TREEROOT)/sys/libOS/$(LIBOS) -Map $(PROGRAM).map
 LOADADDR	= 0x08004000
 
@@ -25,8 +23,6 @@ OBJS	=\
 	misc.o\
 	devsensor.o\
 	devloc.o\
-	devmac.o\
-	$(MAC).o\
 	$(PROGRAM).o\
 
 
@@ -43,9 +39,6 @@ $(PROGRAM).o: $(PROGRAM).c Makefile
 
 $(MAC).o: $(MACPATH)/$(MAC).c Makefile
 	$(CC) $(CFLAGS) $(OPTFLAGS) $(INCLUDES) -c $(MACPATH)/$(MAC).c
-
-devmac.o: $(PORT)/devmac.c Makefile
-	$(CC) $(CFLAGS) $(OPTFLAGS) $(INCLUDES) -c $(PORT)/devmac.c
 
 devsensor.o: $(PORT)/devsensor.c Makefile
 	$(CC) $(CFLAGS) $(OPTFLAGS) $(INCLUDES) -c $(PORT)/devsensor.c
